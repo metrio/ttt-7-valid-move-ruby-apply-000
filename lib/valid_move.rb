@@ -14,8 +14,8 @@ def position_taken?(board, index)
   end
 end
 
-def on_board?(num)
-  if num.between? (0, 8) == true
+def on_board?(8)
+  if 8.between? (0, 8) == true
     true
   else
     false
