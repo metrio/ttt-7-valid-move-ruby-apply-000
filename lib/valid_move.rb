@@ -26,7 +26,6 @@ if ((position_taken?(board, index)) == false && (on_board?(index) == true))
   true
 else
   false
-   false
 end
 
 end
