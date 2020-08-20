@@ -22,7 +22,10 @@ def on_board?(num)
   end
 end
     
-if ((position_taken?(board, index)) == true && (board[index] >= 8))
+if ((position_taken?(board, index)) == false && (on_board?(index) == true)
+  true
+else
+  false
    false
 end
 
